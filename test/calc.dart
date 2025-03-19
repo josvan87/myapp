@@ -1,0 +1,19 @@
+bool isPrime(int number) {
+  if (number <= 1) {
+    return false;
+  }
+  for (int i = 2; i <= number / 2; i++) {
+    if (number % i == 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+void main() {
+  int number1 = 17;
+  int number2 = 20;
+
+  print("$number1 é primo? ${isPrime(number1)}"); 
+  print("$number2 é primo? ${isPrime(number2)}"); 
+}
