@@ -1,6 +1,6 @@
 void main() {
   // Lista com as 6 notas predefinidas
-  List<double> notas = [8, 4,  6, 9 ];
+  List<double> notas = [8.5, 4.5,  6.3, 9.8 ];
 
   // Verifica se a lista não está vazia
   if (notas.isNotEmpty) {
